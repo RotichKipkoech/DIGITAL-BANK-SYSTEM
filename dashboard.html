@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accounts</title>
+  <!-- Linking an external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <div class="container">
+      <!-- Bank logo and title -->
+      <h1 class="logo">Banking System</h1>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Home</a></li>
+          <li><a href="loans.html">Loans</a></li>
+          <li><a href="investments.html">Investments</a></li>
+          <li><a href="contacts.html">Contact Us</a></li>
+          <li><a href="index.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container">
+    <!-- Section title -->
+    <h2 class="section-title">Welcome to the dashboard!</h2>
+    <!-- Dashboard section -->
+    <section class="section">
+      <!-- Greeting message -->
+      Welcome back User, Go <br>
+      Casheless! Stay Safe!
+      <!-- Latest transactions section -->
+      <div id="latest-transactions">
+        <h3>Check your Latest Transactions</h3>
+        <!-- List of transactions -->
+        <ol id="transactions-list"></ol>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <!-- Footer text -->
+      <p class="footer-text">Banking System &copy; 2023</p>
+    </div>
+  </footer>
+
+  <!-- Including a JavaScript file and deferring its execution -->
+  <script src="dashboard.js" defer></script>
+</body>
+</html>
