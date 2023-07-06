@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Bank</title>
+  <!-- Linking an external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Including a JavaScript file and deferring its execution -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-form">
+      <!-- Displaying an image with alt text for accessibility -->
+      <img src="banklogo.png" alt="Logo" class="logo">
+      <h2>Login</h2>
+      <!-- Creating a login form with an ID for identification -->
+      <form id="login-form">
+        <label for="username">Username</label>
+        <!-- Text input field for username with required attribute -->
+        <input type="text" id="username" required>
+        <label for="password">Password</label>
+        <!-- Password input field with required attribute -->
+        <input type="password" id="password" required>
+        <!-- Submit button to initiate the login process -->
+        <button type="submit">Login</button>
+        <!-- Empty paragraph to display login error message if any -->
+        <p class="login-error" id="login-error-message"></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
