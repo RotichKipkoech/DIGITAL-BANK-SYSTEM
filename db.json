@@ -1,46 +1,30 @@
 {
   "accounts": [
     {
-      "id": "3",
-      "balances": {
-        "available": null,
-        "current": 23631.9805,
-        "iso_currency_code": "USD",
-        "limit": null,
-        "unofficial_currency_code": null
-      },
-      "mask": "6666",
-      "name": "Plaid 401k",
-      "official_name": null,
-      "subtype": "401k",
-      "type": "investment"
-    },
-    {
-      "account_id": "",
-      "name": "HOUSEING",
+      "id": 2,
+      "name": "Decent",
       "type": "INVESTMENT",
       "balances": {
-        "current": 21,
-        "available": 21
-      },
-      "id": "q8S7HJj"
-    },
-    {
-      "id": "MnEd5Kj",
-      "name": "HOUSEING",
-      "type": "INVESTMENT",
-      "balances": {
-        "current": 231141,
-        "available": 231141
+        "current": 323,
+        "available": 323
       }
     },
     {
-      "id": "SdErtTG",
-      "name": "HOUSEINGsds",
+      "id": 3,
+      "name": "33",
+      "type": "1231",
+      "balances": {
+        "current": 131,
+        "available": 131
+      }
+    },
+    {
+      "id": 4,
+      "name": "Maingi",
       "type": "INVESTMENT",
       "balances": {
-        "current": 1212,
-        "available": 1212
+        "current": 43958,
+        "available": 43958
       }
     }
   ],
