@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!-- Linking an external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Linking an external CSS file for Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <div class="container">
+      <!-- Bank logo and title -->
+      <h1 class="logo">Banking System</h1>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Home</a></li>
+          <li><a href="loans.html">Loans</a></li>
+          <li><a href="investments.html">Investments</a></li>
+          <li><a href="contacts.html">Contact Us</a></li>
+          <li><a href="index.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container">
+    <!-- Contact section -->
+    <section class="section">
+      <!-- Section title -->
+      <h2 class="section-title">Contact Us</h2>
+      <!-- Add your contact form or information here -->
+
+      <div class="contact-icons">
+        <!-- Facebook icon with a link to Facebook profile -->
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <!-- LinkedIn icon with a link to LinkedIn profile -->
+        <a href="https://https://www.linkedin.com/in/kenny-rotich-a52421142" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <!-- WhatsApp icon with a link to WhatsApp chat -->
+        <a href="https://api.whatsapp.com/send?phone=254725761234text=Hi,%20Rotich%20" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <!-- Email icon with a link to the email address -->
+        <a href="mailto:kipkoechrottich@gmail.com"><i class="fas fa-envelope"></i></a>
+        <!-- Twitter icon with a link to the Twitter profile -->
+        <a href="https://twitter.com/Kennyrottich?t=B_i3Xuq90CYW_5DHRu1nPQ&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <!-- Contact form -->
+      <form id="contactForm">
+        <!-- Input field for first name with required attribute -->
+        <input type="text" id="firstName" placeholder="First name" required>
+        <!-- Input field for last name with required attribute -->
+        <input type="text" id="lastName" placeholder="Last Name" required>
+        <!-- Input field for email with required attribute -->
+        <input type="email" id="email" placeholder="Your Email" required>
+        <!-- Textarea for message with required attribute -->
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <!-- Button to submit the contact form -->
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <!-- Footer text -->
+      <p class="footer-text">Banking System &copy; 2023</p>
+    </div>
+  </footer>
+  
+  <!-- Including a JavaScript file -->
+  <script src="contact.js"></script>
+</body>
+</html>
