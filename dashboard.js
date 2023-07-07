@@ -14,7 +14,7 @@ transactions.forEach(transaction => {
 
 // Fetch account transactions 
 function fetchAccountTransactions(username) {
-  
+
   // Return an array of transactions
   return [
     { date: '2023-07-01', description: 'Deposit', amount: '$1000' },

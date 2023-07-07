@@ -1,174 +1,177 @@
 /* Login Styles */
 .login-container {
-    width: 300px;
-    margin: 100px auto;
-  }
-  
-  .login-form {
-    border: 1px solid #ccc;
-    padding: 20px;
-    background-color: #fff;
-    text-align: center;
-  }
-  
-  .logo {
-    width: 100px;
-    margin-bottom: 20px;
-  }
-  
-  .login-form h2 {
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .login-form label {
-    display: block;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .login-form input[type="text"],
-  .login-form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .login-form button[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .login-form button[type="submit"]:hover {
-    background-color: #555;
-  }
-  
-  .login-error {
-    color: red;
-    margin-top: 10px;
-  }
-  /* Global Styles */
+  width: 300px;
+  margin: 100px auto;
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.login-error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Global Styles */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
 
-  nav {
-    background-color: #f2f2f2;
-    padding: 10px;
-  }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
 
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
 
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 10px;
-    transition: color 0.3s ease;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  nav ul li a:hover {
-    color: #555;
-    background-color: #e0e0e0;
-    border-color: #999;
-  }
-  .section-title {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .footer-text {
-    text-align: center;
-    font-size: 12px;
-    color: #999;
-    padding: 10px;
-  }
-  
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  transition: color 0.3s ease;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  color: #555;
+  background-color: #e0e0e0;
+  border-color: #999;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  padding: 10px;
+}
+
 /* Loans Styles */
 #loanLimit {
-    margin-bottom: 20px;
-    font-size: 18px;
-  }
-  
-  #borrowForm,
-  #repayForm {
-    margin-bottom: 20px;
-  }
-  
-  #borrowForm h2,
-  #repayForm h2 {
-    margin-bottom: 10px;
-    font-size: 24px;
-  }
-  
-  #borrowAmount,
-  #repayAmount {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-  }
-  
-  #borrowButton,
-  #repayButton {
-    padding: 8px 16px;
-    font-size: 16px;
-    border: none;
-    background-color: #4caf50;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  #borrowButton:hover,
-  #repayButton:hover {
-    background-color: #45a049;
-  }
-  #borrowForm input[type="number"],
-  #repayForm input[type="number"] {
-    width: 200px;
-    height: 30px;
-    font-size: 14px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-  }
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#borrowForm,
+#repayForm {
+  margin-bottom: 20px;
+}
+
+#borrowForm h2,
+#repayForm h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+#borrowAmount,
+#repayAmount {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#borrowButton,
+#repayButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#borrowButton:hover,
+#repayButton:hover {
+  background-color: #45a049;
+}
+
+#borrowForm input[type="number"],
+#repayForm input[type="number"] {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
