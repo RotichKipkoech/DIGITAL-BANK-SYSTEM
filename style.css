@@ -118,3 +118,57 @@ body {
     padding: 10px;
   }
   
+/* Loans Styles */
+#loanLimit {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  #borrowForm,
+  #repayForm {
+    margin-bottom: 20px;
+  }
+  
+  #borrowForm h2,
+  #repayForm h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  #borrowAmount,
+  #repayAmount {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  #borrowButton,
+  #repayButton {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #borrowButton:hover,
+  #repayButton:hover {
+    background-color: #45a049;
+  }
+  #borrowForm input[type="number"],
+  #repayForm input[type="number"] {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
