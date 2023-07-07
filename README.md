@@ -44,6 +44,18 @@ Postman
 ```
 ## Reference
 
+# Images
+![Screenshot from 2023-07-07 13-06-31](https://github.com/RotichKipkoech/DIGITAL-BANK-SYSTEM/assets/132645931/f702579b-bc90-4af2-b6ae-4eb0df2b2c9d)
+
+
+![Screenshot from 2023-07-07 13-06-48](https://github.com/RotichKipkoech/DIGITAL-BANK-SYSTEM/assets/132645931/291ccd26-1318-4003-8cf2-7ee1dcc5fe77)
+
+
+![Screenshot from 2023-07-07 13-06-55](https://github.com/RotichKipkoech/DIGITAL-BANK-SYSTEM/assets/132645931/c74115a3-054a-4996-a6f9-429cd70863e6)
+
+![Screenshot from 2023-07-07 13-07-09](https://github.com/RotichKipkoech/DIGITAL-BANK-SYSTEM/assets/132645931/17822ae7-e99d-4a79-8ed3-07b9edfd0996)
+
+![Screenshot from 2023-07-07 13-07-14](https://github.com/RotichKipkoech/DIGITAL-BANK-SYSTEM/assets/132645931/5fad4470-2dcc-4f41-89c3-4faaaad7207b)
 
 
 ### known Bugs
