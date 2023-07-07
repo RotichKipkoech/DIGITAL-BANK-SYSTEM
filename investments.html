@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investments</title>
+  <!-- Linking an external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <div class="container">
+      <!-- Bank logo and title -->
+      <h1 class="logo">Banking System</h1>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Home</a></li>
+          <!-- <li><a href="accounts.html">Accounts</a></li> -->
+          <li><a href="loans.html">Loans</a></li>
+          <li><a href="investments.html">Investments</a></li>
+          <li><a href="contacts.html">Contact Us</a></li>
+          <li><a href="index.html">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content container -->
+  <div class="container">
+    <!-- Investment section -->
+    <section class="section">
+      <!-- Section title -->
+      <h2 class="section-title">Investments</h2>
+      <!-- Investment form -->
+      <form id="add-investment-form">
+        <label for="account-name">Account Name:</label>
+        <!-- Input field for account name with required attribute -->
+        <input type="text" id="account-name" name="accountName" required>
+
+        <label for="account-type">Type:</label>
+        <!-- Input field for account type with required attribute -->
+        <input type="text" id="account-type" name="accountType" required>
+
+        <label for="current-balance">Current Balance:</label>
+        <!-- Input field for current balance with required attribute -->
+        <input type="number" id="current-balance" name="currentBalance" required>
+
+        <!-- Button to submit the investment form -->
+        <button type="submit">Add Product</button>
+      </form>
+
+      <!-- Investment table -->
+      <table id="investment-table">
+        <thead>
+          <tr>
+            <th>Account Name</th>
+            <th>Type</th>
+            <th>Current Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Investment data will be dynamically added here -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <!-- Footer text -->
+      <p class="footer-text">Banking System &copy; 2023</p>
+    </div>
+  </footer>
+
+  <!-- Including a JavaScript file -->
+  <script src="investment.js"></script>
+</body>
+</html>
