@@ -175,3 +175,50 @@ nav ul li a:hover {
   box-sizing: border-box;
   margin-bottom: 10px;
 }
+
+.contact-container {
+  text-align: center;
+}
+.section {
+  padding: 80px 0;
+}
+
+.contact-icons {
+  margin-bottom: 20px;
+}
+
+.contact-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.container form button {
+  display: block;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
