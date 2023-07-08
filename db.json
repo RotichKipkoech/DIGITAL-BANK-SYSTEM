@@ -26,6 +26,24 @@
         "current": 43958,
         "available": 43958
       }
+    },
+    {
+      "id": 5,
+      "name": "faith",
+      "type": "credit",
+      "balances": {
+        "current": 2500,
+        "available": 2500
+      }
+    },
+    {
+      "id": 6,
+      "name": "Amos",
+      "type": "INVESTMENT",
+      "balances": {
+        "current": 30000,
+        "available": 30000
+      }
     }
   ],
   "holdings": [],

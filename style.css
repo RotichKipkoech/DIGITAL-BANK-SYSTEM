@@ -222,3 +222,33 @@ nav ul li a:hover {
   padding: 20px;
   text-align: center;
 }
+#investment-table{
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+#add-investment-form input[type="text"], [type="number"]{
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#add-investment-form button[type="submit"] {
+  
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
